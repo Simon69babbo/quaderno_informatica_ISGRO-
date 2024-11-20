@@ -14,7 +14,7 @@ echo "Nome utente: $nomeutente<br>";
 echo "Password: $password<br>";
 
 if($nomeutente == "Admin" && $password == "123") {
-  echo ("Benvenuto $nomeutente nella pagina riservata del sito!");
+  echo ("Benvenuto $nomeutente nelle credenziali del nostro sito!");
 } else {
   echo  ("Attenzione: credenziali non corrette.");
 }
