@@ -16,7 +16,7 @@ $nome = isset($_POST["nome"]) ? $_POST["nome"] : "";
 if (!empty($nome)) {
 		echo (" $nome - (valore presente)");
 	} else {
-		echo ("(valore non presente)");
+		echo ("(valore assente)");
 }
 echo nl2br("\n");
 ?>
@@ -30,7 +30,7 @@ $cognome = isset($_POST["cognome"]) ? $_POST["cognome"] : "";
 if (!empty($cognome)) {
 		echo (" $cognome - (valore presente)");
 	} else {
-		echo ("(valore non presente)");
+		echo ("(valore assente)");
 }
 
 echo nl2br("\n");
@@ -45,7 +45,7 @@ $cf = isset($_POST["cf"]) ? $_POST["cf"] : "";
 if (!empty($cf)) {
 		echo (" $cf - (valore presente)");
 	} else {
-		echo ("(valore non presente)");
+		echo ("(valore assente)");
 }
 
 echo nl2br("\n");
@@ -59,7 +59,7 @@ $datadinascita = isset($_POST["datadinascita"]) ? $_POST["datadinascita"] : "";
 if (!empty($datadinascita)) {
 		echo (" $datadinascita - (valore presente)");
 	} else {
-		echo ("(valore non presente)");
+		echo ("(valore assente)");
 }
 
 echo nl2br("\n");
@@ -68,7 +68,7 @@ echo nl2br("\n");
 	<br>
 
 	<form action="Esercizio1.html">
-	<button type="submit">Indietro</button>
+	<button type="submit">Menu Principale</button>
 	</form>
 
 </body>
