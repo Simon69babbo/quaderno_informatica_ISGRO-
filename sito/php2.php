@@ -23,7 +23,7 @@ if($nomeutente == "Admin" && $password == "123") {
 <br>
 
 	<form action="Esercizio2.html">
-	<button type="submit">Indietro</button>
+	<button type="submit">Menu Principale</button>
 	</form>
 
 </body>
