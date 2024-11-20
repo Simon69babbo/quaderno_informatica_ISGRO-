@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <br>
 
 	<form action="Esercizio3.html">
-	<button type="submit">Indietro</button>
+	<button type="submit">Menu Principale</button>
 	</form>
 	
 </body>
